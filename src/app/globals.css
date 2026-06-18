@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-base: #ffffff;
+  --bg-surface: #f5f8fd;
+  --bg-elevated: #ffffff;
+  --border: #dce5f0;
+  --border-bright: #c5d2e3;
+  --accent-primary: #0066ff;
+  --accent-secondary: #0066ff;
+  --accent-warm: #dc2626;
+  --text-primary: #0a0a0a;
+  --text-secondary: #6e6e73;
+  --text-muted: #6e6e73;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg-base);
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-inter), sans-serif;
+}
+
+* {
+  border-color: var(--border);
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+[class*="rounded-"] {
+  border-radius: 0 !important;
+}
+
+[class*="bg-gradient"],
+[class*="radial-gradient"],
+[style*="linear-gradient"],
+[style*="radial-gradient"] {
+  background-image: none !important;
+}
+
+.hero-bg {
+  background-image: radial-gradient(circle, #d1d5db 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.35;
+  pointer-events: none;
+  mask-image: radial-gradient(
+    ellipse 80% 60% at 50% 50%,
+    black 40%,
+    transparent 100%
+  );
+  -webkit-mask-image: radial-gradient(
+    ellipse 80% 60% at 50% 50%,
+    black 40%,
+    transparent 100%
+  );
+}
+
+.hero-badge {
+  border-radius: 9999px !important;
+}
+
+::selection {
+  background: var(--accent-primary);
+  color: white;
+}
+
+@layer components {
+  .field {
+    @apply w-full border border-line bg-elevated px-4 py-3 text-sm text-text-main outline-none transition placeholder:text-text-muted focus:border-primary focus:ring-1 focus:ring-primary;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

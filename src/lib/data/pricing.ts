@@ -1,0 +1,60 @@
+export const pricingPlans = [
+  {
+    name: "Starter",
+    price: "Starting at PKR 30,000",
+    bestFor: "Small businesses, startups",
+    cta: "Get Started",
+    popular: false,
+    features: [
+      "5-page website (Next.js)",
+      "Mobile responsive",
+      "Basic SEO setup",
+      "Contact form",
+      "2 weeks delivery",
+      "30 days support",
+    ],
+  },
+  {
+    name: "Growth",
+    price: "Starting at PKR 80,000",
+    bestFor: "Growing businesses",
+    cta: "Most Popular Choice",
+    popular: true,
+    features: [
+      "Everything in Starter",
+      "Up to 15 pages",
+      "Custom animations",
+      "CMS / Blog integration",
+      "Google Analytics",
+      "Advanced SEO",
+      "60 days support",
+    ],
+  },
+  {
+    name: "Enterprise",
+    price: "Custom Quote",
+    bestFor: "Large businesses, SaaS, platforms",
+    cta: "Talk to Us",
+    popular: false,
+    features: [
+      "Everything in Growth",
+      "Unlimited pages",
+      "Custom dashboard",
+      "API integrations",
+      "AI automation add-ons",
+      "Dedicated project manager",
+      "Ongoing retainer available",
+    ],
+  },
+];
+
+export const pricingFaqs = [
+  { question: "Do you require an advance payment?", answer: "Yes. Most projects start with a 50% deposit and the remainder before launch." },
+  { question: "Can we pay in milestones?", answer: "For larger builds, yes. We split payments by agreed delivery milestones." },
+  { question: "How many revisions are included?", answer: "Each package includes two structured revision rounds before final approval." },
+  { question: "Do prices include hosting?", answer: "Hosting and third-party tools are billed directly to you unless agreed otherwise." },
+  { question: "Can you work as a monthly team?", answer: "Yes. We offer retainers for development, design, SEO, and marketing support." },
+  { question: "What payment methods do you accept?", answer: "Bank transfer, JazzCash, EasyPaisa, and international wire." },
+  { question: "Do you sign NDAs?", answer: "Yes. We can sign an NDA before discussing sensitive product details." },
+  { question: "Can you rescue an unfinished project?", answer: "Often, yes. We audit the code or design first, then propose the cleanest path forward." },
+];

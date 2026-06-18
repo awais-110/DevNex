@@ -1,0 +1,19 @@
+
+> devnex-solution@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 7.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 20.7s (1509 modules)
+ GET / 200 in 21513ms
+ ○ Compiling /_not-found ...
+ GET / 404 in 5019ms
+ ✓ Compiled /_not-found in 7.6s (1501 modules)
+ GET / 200 in 571ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1411ms (835 modules)
+ GET /favicon.ico 200 in 1711ms
