@@ -39,7 +39,7 @@ export default function ServiceDetailPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "Service",
     name: service.title,
-    provider: { "@type": "Organization", name: "DevNex Solution" },
+    provider: { "@type": "Organization", name: "Techways" },
     areaServed: "Pakistan",
   };
 

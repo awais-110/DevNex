@@ -7,7 +7,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business",
     excerpt:
       "Your website is often the first sales call. A custom build gives you speed, trust, and room to grow.",
-    author: "DevNex Editorial",
+    author: "Techways Editorial",
     date: "2025-06-10",
     readTime: "6 min read",
     icon: "Globe2",
@@ -71,7 +71,7 @@ export const blogPosts: BlogPost[] = [
     category: "Business",
     excerpt:
       "Cheap work gets expensive when you pay again for fixes, missed deadlines, and unclear ownership.",
-    author: "DevNex Editorial",
+    author: "Techways Editorial",
     date: "2025-04-12",
     readTime: "5 min read",
     icon: "Scale",

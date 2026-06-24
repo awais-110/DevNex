@@ -5,7 +5,7 @@ import { SectionHeader } from "@/components/shared/SectionHeader";
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Open roles at DevNex Solution for developers, SEO specialists, and UI/UX designers.",
+  description: "Open roles at Techways for developers, SEO specialists, and UI/UX designers.",
 };
 
 const roles = [
@@ -29,7 +29,7 @@ export default function CareersPage() {
                 <h2 className="font-display text-xl font-semibold text-text-main">{role}</h2>
                 <p className="mt-2 text-sm text-primary">{type}</p>
                 <p className="mt-4 text-sm leading-7 text-text-soft">{skills}</p>
-                <Button href={`mailto:hello@devnexsolution.com?subject=Application: ${role}`} className="mt-6" variant="secondary">Apply Now</Button>
+                <Button href={`mailto:hello@techways.com?subject=Application: ${role}`} className="mt-6" variant="secondary">Apply Now</Button>
               </article>
             ))}
           </div>

@@ -11,11 +11,11 @@ export function Footer() {
         <div>
           <Link href="/" className="inline-block focus:outline-none focus:ring-2 focus:ring-primary">
             <Image
-              src="/brand/devnex-logo.png"
-              alt="DevNex Solution"
-              width={779}
-              height={635}
-              className="h-auto w-32"
+              src="/brand/techways-logo.svg"
+              alt="Techways"
+              width={980}
+              height={220}
+              className="h-auto w-56 max-w-full"
             />
           </Link>
           <p className="mt-4 max-w-xs text-sm leading-7 text-text-soft">
@@ -41,7 +41,7 @@ export function Footer() {
         <div>
           <h3 className="font-semibold text-text-main">Contact</h3>
           <div className="mt-4 space-y-2 text-sm text-text-soft">
-            <p>hello@devnexsolution.com</p>
+            <p>hello@techways.com</p>
             <p>Karachi, Pakistan</p>
             <p>Mon-Sat, 9am-7pm PKT</p>
           </div>
@@ -52,7 +52,7 @@ export function Footer() {
       </div>
       <div className="border-t border-line">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-5 text-sm text-text-muted sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
-          <p>© 2026 DevNex Solution</p>
+          <p>© 2026 Techways</p>
           <div className="flex gap-5">
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms-of-service">Terms of Service</Link>

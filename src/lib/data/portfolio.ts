@@ -17,7 +17,7 @@ export const projects: Project[] = [
       { metric: "31%", label: "More checkout starts" },
     ],
     tags: ["Next.js", "Supabase", "Stripe"],
-    coverColor: "#0066FF",
+    coverColor: "#5B2595",
   },
   {
     slug: "nexabrand-identity",
@@ -35,7 +35,7 @@ export const projects: Project[] = [
       { metric: "100%", label: "Reusable source files" },
     ],
     tags: ["Branding", "Figma", "Social Kit"],
-    coverColor: "#0066FF",
+    coverColor: "#5B2595",
   },
   {
     slug: "swiftpay-ai-assistant",
@@ -53,7 +53,7 @@ export const projects: Project[] = [
       { metric: "24/7", label: "Customer coverage" },
     ],
     tags: ["OpenAI", "RAG", "Support"],
-    coverColor: "#0066FF",
+    coverColor: "#5B2595",
   },
   {
     slug: "buildright-seo-growth",
@@ -71,7 +71,7 @@ export const projects: Project[] = [
       { metric: "2.4x", label: "More qualified leads" },
     ],
     tags: ["Technical SEO", "Content", "GA4"],
-    coverColor: "#0066FF",
+    coverColor: "#5B2595",
   },
   {
     slug: "orblabs-campaigns",
@@ -89,7 +89,7 @@ export const projects: Project[] = [
       { metric: "6", label: "Campaign tests" },
     ],
     tags: ["Meta Ads", "Google Ads", "Landing Pages"],
-    coverColor: "#0066FF",
+    coverColor: "#5B2595",
   },
   {
     slug: "swiftcare-mobile",
@@ -107,6 +107,6 @@ export const projects: Project[] = [
       { metric: "2", label: "Platforms shipped" },
     ],
     tags: ["React Native", "Expo", "Supabase"],
-    coverColor: "#0066FF",
+    coverColor: "#5B2595",
   },
 ];

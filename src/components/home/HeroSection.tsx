@@ -51,7 +51,7 @@ function AINetwork({
           key={path}
           d={path}
           fill="none"
-          stroke="#D8DEE8"
+          stroke="#D9CAE9"
           strokeWidth="1"
           initial={reducedMotion ? false : { pathLength: 0 }}
           animate={{ pathLength: 1 }}
@@ -65,14 +65,14 @@ function AINetwork({
 
       {!reducedMotion ? (
         <>
-          <circle r="3" fill="#0066FF">
+          <circle r="3" fill="#5B2595">
             <animateMotion
               dur="3.8s"
               repeatCount="indefinite"
               path={reverse ? networkPaths[1] : networkPaths[0]}
             />
           </circle>
-          <circle r="2.5" fill="#0066FF">
+          <circle r="2.5" fill="#7A35BD">
             <animateMotion
               dur="4.6s"
               begin="1.1s"
@@ -91,8 +91,8 @@ function AINetwork({
           transition={{ delay: 0.7 + index * 0.08, duration: 0.4 }}
           style={{ transformOrigin: `${cx}px ${cy}px` }}
         >
-          <circle cx={cx} cy={cy} r="7" fill="#FFFFFF" stroke="#B8C2D1" />
-          <circle cx={cx} cy={cy} r="2" fill={index % 3 === 0 ? "#0066FF" : "#6E6E73"} />
+          <circle cx={cx} cy={cy} r="7" fill="#FFFFFF" stroke="#C7AFD9" />
+          <circle cx={cx} cy={cy} r="2" fill={index % 3 === 0 ? "#5B2595" : "#83768F"} />
         </motion.g>
       ))}
     </motion.svg>
@@ -183,7 +183,7 @@ export function HeroSection() {
         >
           <Link
             href="/contact"
-            className="group relative inline-flex items-center justify-center gap-2 overflow-hidden bg-text-main px-6 py-3 text-sm font-semibold text-white transition-colors duration-300 hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            className="group relative inline-flex items-center justify-center gap-2 overflow-hidden bg-primary px-6 py-3 text-sm font-semibold text-white transition-colors duration-300 hover:bg-[#451878] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
           >
             Start a Project
             <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />

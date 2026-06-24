@@ -7,7 +7,7 @@ import { SectionHeader } from "@/components/shared/SectionHeader";
 
 export const metadata: Metadata = {
   title: "Pricing",
-  description: "Transparent project ranges for DevNex Solution websites, apps, automation, SEO, and marketing.",
+  description: "Transparent project ranges for Techways websites, apps, automation, SEO, and marketing.",
 };
 
 export default function PricingPage() {

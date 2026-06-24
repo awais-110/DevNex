@@ -75,7 +75,7 @@ export default function BlogPostPage({ params }: Props) {
           </div>
           <div className="mt-12 rounded-xl border border-line bg-surface p-6">
             <p className="font-display text-xl font-semibold text-text-main">About {post.author}</p>
-            <p className="mt-2 text-sm leading-7 text-text-soft">DevNex writes practical notes from real client work, launches, and audits.</p>
+            <p className="mt-2 text-sm leading-7 text-text-soft">Techways writes practical notes from real client work, launches, and audits.</p>
           </div>
           <div className="mt-14 grid gap-5 md:grid-cols-3">
             {related.map((item) => <BlogCard key={item.slug} post={item} />)}

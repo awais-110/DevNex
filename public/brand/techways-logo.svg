@@ -1,0 +1,8 @@
+<svg width="980" height="220" viewBox="0 0 980 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Techways logo</title>
+  <rect x="12" y="12" width="956" height="196" fill="white"/>
+  <rect x="12" y="12" width="956" height="196" stroke="#5B2595" stroke-width="16"/>
+  <rect x="44" y="46" width="296" height="128" fill="#5B2595"/>
+  <text x="192" y="135" text-anchor="middle" fill="white" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="84" font-weight="900" letter-spacing="-7" textLength="218" lengthAdjust="spacingAndGlyphs">TW</text>
+  <text x="378" y="140" fill="#5B2595" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="102" font-weight="900" letter-spacing="-3" textLength="520" lengthAdjust="spacingAndGlyphs">Techways</text>
+</svg>

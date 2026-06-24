@@ -13,7 +13,7 @@ import { siteUrl } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Web, AI, Design, SEO and Marketing Agency",
   description:
-    "DevNex Solution builds high-performance websites, AI systems, brand identities, SEO, and marketing engines for businesses in Pakistan and worldwide.",
+    "Techways builds high-performance websites, AI systems, brand identities, SEO, and marketing engines for businesses in Pakistan and worldwide.",
   alternates: { canonical: siteUrl },
 };
 
@@ -21,9 +21,9 @@ export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "DevNex Solution",
+    name: "Techways",
     url: siteUrl,
-    email: "hello@devnexsolution.com",
+    email: "hello@techways.com",
     address: { "@type": "PostalAddress", addressLocality: "Karachi", addressCountry: "PK" },
   };
 

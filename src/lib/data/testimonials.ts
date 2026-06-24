@@ -1,7 +1,7 @@
 export const testimonials = [
   {
     quote:
-      "DevNex rebuilt our entire e-commerce site in 3 weeks. Sales went up 60% in the first month. These guys actually deliver what they promise.",
+      "Techways rebuilt our entire e-commerce site in 3 weeks. Sales went up 60% in the first month. These guys actually deliver what they promise.",
     name: "Ahmed K.",
     title: "CEO",
     company: "RetailHub.pk",

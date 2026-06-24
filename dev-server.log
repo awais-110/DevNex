@@ -1,19 +1,23 @@
 
-> devnex-solution@0.1.0 dev
-> next dev
+> techways@0.1.0 dev
+> next dev -p 3001
 
   ▲ Next.js 14.2.35
-  - Local:        http://localhost:3000
+  - Local:        http://localhost:3001
 
  ✓ Starting...
- ✓ Ready in 7.6s
+ ✓ Ready in 13.2s
  ○ Compiling / ...
- ✓ Compiled / in 20.7s (1509 modules)
- GET / 200 in 21513ms
- ○ Compiling /_not-found ...
- GET / 404 in 5019ms
- ✓ Compiled /_not-found in 7.6s (1501 modules)
- GET / 200 in 571ms
+ ✓ Compiled / in 47.8s (1509 modules)
+ GET / 200 in 1772ms
+ GET / 200 in 1047ms
  ○ Compiling /favicon.ico ...
- ✓ Compiled /favicon.ico in 1411ms (835 modules)
- GET /favicon.ico 200 in 1711ms
+ ✓ Compiled /favicon.ico in 2.7s (835 modules)
+ GET /favicon.ico 200 in 3149ms
+ GET / 200 in 1298ms
+ GET /favicon.ico 200 in 75ms
+ GET / 200 in 497ms
+ GET / 200 in 964ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 18.6s (1712 modules)
+[?25h

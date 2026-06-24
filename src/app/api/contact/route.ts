@@ -28,8 +28,8 @@ export async function POST(request: Request) {
     const resend = new Resend(process.env.RESEND_API_KEY);
     const data = parsed.data;
     await resend.emails.send({
-      from: "DevNex Website <onboarding@resend.dev>",
-      to: "hello@devnexsolution.com",
+      from: "Techways Website <onboarding@resend.dev>",
+      to: "hello@techways.com",
       subject: `New Project Inquiry from ${data.name} - ${data.service}`,
       html: `
         <div style="font-family:Arial,sans-serif;line-height:1.6">

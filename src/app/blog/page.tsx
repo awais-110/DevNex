@@ -6,7 +6,7 @@ import { PageHero } from "@/components/shared/PageHero";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Practical web, AI, design, SEO, and business insights from DevNex Solution.",
+  description: "Practical web, AI, design, SEO, and business insights from Techways.",
 };
 
 export default function BlogPage() {

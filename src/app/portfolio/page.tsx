@@ -4,7 +4,7 @@ import { PortfolioFilter } from "@/components/shared/PortfolioFilter";
 
 export const metadata: Metadata = {
   title: "Portfolio",
-  description: "Case studies and project results from DevNex Solution.",
+  description: "Case studies and project results from Techways.",
 };
 
 export default function PortfolioPage() {

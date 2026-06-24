@@ -4,16 +4,16 @@
 
 :root {
   --bg-base: #ffffff;
-  --bg-surface: #f5f8fd;
+  --bg-surface: #f8f5fc;
   --bg-elevated: #ffffff;
-  --border: #dce5f0;
-  --border-bright: #c5d2e3;
-  --accent-primary: #0066ff;
-  --accent-secondary: #0066ff;
-  --accent-warm: #dc2626;
+  --border: #e4d9ef;
+  --border-bright: #c7afd9;
+  --accent-primary: #5b2595;
+  --accent-secondary: #7a35bd;
+  --accent-warm: #b83280;
   --text-primary: #0a0a0a;
-  --text-secondary: #6e6e73;
-  --text-muted: #6e6e73;
+  --text-secondary: #625a6d;
+  --text-muted: #83768f;
 }
 
 html {
@@ -47,7 +47,7 @@ body {
 }
 
 .hero-bg {
-  background-image: radial-gradient(circle, #d1d5db 1px, transparent 1px);
+  background-image: radial-gradient(circle, #d9cae9 1px, transparent 1px);
   background-size: 32px 32px;
   opacity: 0.35;
   pointer-events: none;

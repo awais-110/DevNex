@@ -12,7 +12,7 @@ import { SectionHeader } from "@/components/shared/SectionHeader";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Web development, graphic design, AI automation, SEO, digital marketing, and mobile apps from DevNex Solution.",
+  description: "Web development, graphic design, AI automation, SEO, digital marketing, and mobile apps from Techways.",
 };
 
 export default function ServicesPage() {

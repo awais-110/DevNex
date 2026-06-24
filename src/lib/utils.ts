@@ -6,4 +6,4 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://devnexsolution.com";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://techways.com";

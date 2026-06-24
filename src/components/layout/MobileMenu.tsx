@@ -28,16 +28,15 @@ export function MobileMenu({ onClose }: { onClose: () => void }) {
         <Link
           href="/"
           onClick={onClose}
-          aria-label="DevNex Solution home"
-          className="flex items-center gap-2"
+          aria-label="Techways home"
+          className="inline-flex items-center"
         >
-          <Image src="/brand/devnex-mark.png" alt="" width={736} height={442} className="h-9 w-auto" />
           <Image
-            src="/brand/devnex-wordmark.png"
-            alt="DevNex Solution"
-            width={735}
-            height={153}
-            className="h-auto w-[112px]"
+            src="/brand/techways-logo.svg"
+            alt="Techways"
+            width={980}
+            height={220}
+            className="h-auto w-[190px]"
           />
         </Link>
         <button

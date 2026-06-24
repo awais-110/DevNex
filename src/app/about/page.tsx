@@ -9,7 +9,7 @@ import { Button } from "@/components/shared/Button";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn about DevNex Solution, a Karachi software house for web, AI, design, SEO, and marketing.",
+  description: "Learn about Techways, a Karachi software house for web, AI, design, SEO, and marketing.",
 };
 
 const values = [
@@ -30,15 +30,15 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        label="About DevNex"
+        label="About Techways"
         title="Karachi roots. Global standards."
-        text="DevNex Solution was founded in Karachi with one idea: businesses in Pakistan deserve the same quality of digital products as Silicon Valley companies."
+        text="Techways was founded in Karachi with one idea: businesses in Pakistan deserve the same quality of digital products as Silicon Valley companies."
       />
       <section className="pb-20">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
           <div><SectionHeader label="Story" title="Built for serious businesses" /></div>
           <div className="space-y-5 text-lg leading-9 text-text-soft">
-            <p>We started DevNex after seeing too many good businesses settle for slow websites, unclear branding, and agencies that disappear after launch.</p>
+            <p>We started Techways after seeing too many good businesses settle for slow websites, unclear branding, and agencies that disappear after launch.</p>
             <p>Our work is practical: design that earns trust, code that stays fast, automation that saves hours, and marketing tied to numbers you can see.</p>
           </div>
         </div>
@@ -77,11 +77,11 @@ export default function AboutPage() {
       </section>
       <section className="bg-surface/50 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <SectionHeader label="Why DevNex" title="The honest comparison" />
+          <SectionHeader label="Why Techways" title="The honest comparison" />
           <div className="mt-10 overflow-x-auto rounded-xl border border-line">
             <table className="w-full min-w-[760px] bg-surface text-left text-sm">
               <thead className="bg-elevated text-text-main">
-                <tr><th className="p-4">Factor</th><th className="p-4">DevNex</th><th className="p-4">Freelancer</th><th className="p-4">Big Agency</th></tr>
+                <tr><th className="p-4">Factor</th><th className="p-4">Techways</th><th className="p-4">Freelancer</th><th className="p-4">Big Agency</th></tr>
               </thead>
               <tbody className="divide-y divide-line text-text-soft">
                 {comparison.map((row) => <tr key={row[0]}>{row.map((cell) => <td key={cell} className="p-4">{cell}</td>)}</tr>)}

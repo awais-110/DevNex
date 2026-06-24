@@ -17,21 +17,21 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "DevNex Solution | Full-Stack Agency",
-    template: "DevNex Solution | %s",
+    default: "Techways | Full-Stack Agency",
+    template: "Techways | %s",
   },
   description:
-    "DevNex Solution builds websites, AI automation, brand identities, SEO, and digital marketing systems for growing businesses.",
+    "Techways builds websites, AI automation, brand identities, SEO, and digital marketing systems for growing businesses.",
   openGraph: {
-    title: "DevNex Solution",
+    title: "Techways",
     description: "A Karachi software house for web, AI, design, SEO, and marketing.",
     url: siteUrl,
-    siteName: "DevNex Solution",
+    siteName: "Techways",
     images: [{ url: "/og/home-og.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "DevNex Solution",
+    title: "Techways",
     description: "Full-stack agency for web, AI, design, SEO, and marketing.",
   },
 };

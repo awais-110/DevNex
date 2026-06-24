@@ -42,24 +42,16 @@ export function Navbar() {
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <Link
             href="/"
-            aria-label="DevNex Solution home"
-            className="flex items-center gap-2.5 focus:outline-none focus:ring-2 focus:ring-primary"
+            aria-label="Techways home"
+            className="inline-flex items-center focus:outline-none focus:ring-2 focus:ring-primary"
           >
             <Image
-              src="/brand/devnex-mark.png"
-              alt=""
-              width={736}
-              height={442}
+              src="/brand/techways-logo.svg"
+              alt="Techways"
+              width={980}
+              height={220}
               priority
-              className="h-9 w-auto sm:h-10"
-            />
-            <Image
-              src="/brand/devnex-wordmark.png"
-              alt="DevNex Solution"
-              width={735}
-              height={153}
-              priority
-              className="h-auto w-[116px] sm:w-[132px]"
+              className="h-auto w-[190px] sm:w-[210px]"
             />
           </Link>
           <nav className="hidden items-center gap-7 md:flex">
@@ -106,7 +98,7 @@ export function Navbar() {
             </Button>
           </div>
           <button
-            className="flex h-11 w-11 items-center justify-center rounded-lg border border-line text-text-main focus:outline-none focus:ring-2 focus:ring-primary md:hidden"
+            className="flex h-11 w-11 items-center justify-center rounded-lg border border-line text-text-main transition-colors hover:border-primary hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary md:hidden"
             onClick={() => setMobileOpen(true)}
             aria-label="Open menu"
           >

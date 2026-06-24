@@ -7,14 +7,14 @@ import { siteUrl } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact DevNex Solution for websites, AI automation, design, SEO, and digital marketing.",
+  description: "Contact Techways for websites, AI automation, design, SEO, and digital marketing.",
 };
 
 export default function ContactPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "DevNex Solution",
+    name: "Techways",
     url: `${siteUrl}/contact`,
     address: { "@type": "PostalAddress", addressLocality: "Karachi", addressCountry: "PK" },
   };
@@ -28,7 +28,7 @@ export default function ContactPage() {
           <div className="rounded-xl border border-line bg-surface p-6"><ContactForm /></div>
           <aside className="space-y-5">
             {[
-              [Mail, "Email", "hello@devnexsolution.com"],
+              [Mail, "Email", "hello@techways.com"],
               [MessageCircle, "WhatsApp", "+92 300 0000000"],
               [MapPin, "Location", "Karachi, Pakistan"],
             ].map(([Icon, title, text]) => (

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/shared/PageHero";
 
-export const metadata: Metadata = { title: "Terms of Service", description: "DevNex Solution terms of service." };
+export const metadata: Metadata = { title: "Terms of Service", description: "Techways terms of service." };
 
 const sections = [
   ["Service agreement", "Project scope, timelines, and deliverables are confirmed in writing before work starts."],

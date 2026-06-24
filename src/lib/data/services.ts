@@ -21,7 +21,7 @@ export const services: Service[] = [
     fullDesc:
       "Custom websites, dashboards, SaaS platforms, and storefronts built for speed, conversion, and clean maintenance.",
     icon: "Code2",
-    color: "#0066FF",
+    color: "#5B2595",
     accentClass: "text-primary",
     features: ["Next.js 14 / React", "TypeScript", "Supabase / PostgreSQL", "API integrations", "Performance tuning"],
     deliverables: ["Responsive interface", "CMS or admin panel", "SEO foundations", "Analytics events", "Deployment on Vercel", "30-day launch support"],
@@ -51,7 +51,7 @@ export const services: Service[] = [
     fullDesc:
       "Logos, brand identities, pitch decks, social kits, and UI visuals created to make your business look serious from day one.",
     icon: "Palette",
-    color: "#0066FF",
+    color: "#5B2595",
     accentClass: "text-primary",
     features: ["Logo systems", "Brand guidelines", "Social media kits", "Pitch decks", "UI design"],
     deliverables: ["Logo package", "Color and type system", "Brand usage guide", "Social templates", "Presentation assets", "Editable source files"],
@@ -81,7 +81,7 @@ export const services: Service[] = [
     fullDesc:
       "Practical AI systems connected to your data, support inbox, CRM, and daily workflows so your team gets time back.",
     icon: "Bot",
-    color: "#0066FF",
+    color: "#5B2595",
     accentClass: "text-primary",
     features: ["Custom chatbots", "AI agents", "Document workflows", "CRM automations", "Human handoff"],
     deliverables: ["Workflow map", "Prompt and tool design", "API integration", "Admin controls", "Testing dashboard", "Team training"],
@@ -111,7 +111,7 @@ export const services: Service[] = [
     fullDesc:
       "A practical SEO program covering speed, structure, keywords, local search, content, and reporting that shows actual numbers.",
     icon: "TrendingUp",
-    color: "#0066FF",
+    color: "#5B2595",
     accentClass: "text-primary",
     features: ["Technical audit", "Keyword research", "On-page SEO", "Content briefs", "Analytics reporting"],
     deliverables: ["SEO audit", "Keyword plan", "Metadata rewrite", "Schema markup", "Content calendar", "Monthly report"],
@@ -141,7 +141,7 @@ export const services: Service[] = [
     fullDesc:
       "Meta ads, Google ads, email campaigns, and social strategy built around offers, landing pages, and measurable ROI.",
     icon: "Megaphone",
-    color: "#0066FF",
+    color: "#5B2595",
     accentClass: "text-primary",
     features: ["Meta Ads", "Google Ads", "Email campaigns", "Landing pages", "Creative testing"],
     deliverables: ["Campaign strategy", "Ad copy", "Creative direction", "Landing page review", "Tracking setup", "Weekly optimization"],
@@ -171,7 +171,7 @@ export const services: Service[] = [
     fullDesc:
       "Cross-platform apps with native-feeling interfaces, API integration, analytics, and store-ready builds.",
     icon: "Smartphone",
-    color: "#0066FF",
+    color: "#5B2595",
     accentClass: "text-primary",
     features: ["React Native", "Expo", "Push notifications", "Auth flows", "Store builds"],
     deliverables: ["App UI", "API integration", "Push setup", "Crash reporting", "App Store assets", "Release checklist"],
